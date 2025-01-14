@@ -19,7 +19,7 @@ public class RegisterDto {
 
     private String phone;
      private String address;
-     @Size(min = 6, message = "Minimum Password length is 6 caharacters.")
+     @Size(min = 6, message = "Minimum Password length is 6 characters.")
     private String password;
 
      private String confirmPassword;
@@ -64,11 +64,11 @@ public class RegisterDto {
         this.phone = phone;
     }
 
-    public @Size(min = 6, message = "Minimum Password length is 6 caharacters.") String getPassword() {
+    public @Size(min = 6, message = "Minimum Password length is 6 characters.") String getPassword() {
         return password;
     }
 
-    public void setPassword(@Size(min = 6, message = "Minimum Password length is 6 caharacters.") String password) {
+    public void setPassword(@Size(min = 6, message = "Minimum Password length is 6 characters.") String password) {
         this.password = password;
     }
 
