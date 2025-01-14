@@ -1,4 +1,4 @@
-package com.APItwo.Authentication.controlle;
+package com.APItwo.Authentication.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
